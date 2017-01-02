@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{55B2518D-C8F2-4ADE-961D-5D4D70F381E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3E1DDB9F-7AFC-44F9-8125-20EC65701821}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		build.bat = build.bat
+		build.fsx = build.fsx
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WampClient.NetCore", "src\WampClient.NetCore\WampClient.NetCore.xproj", "{90559575-2D1A-4354-A346-DD12D22D11DC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "UnitTests", "src\UnitTests\UnitTests.xproj", "{00CCC870-D3A1-459A-979A-3D0DDB0659A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90559575-2D1A-4354-A346-DD12D22D11DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90559575-2D1A-4354-A346-DD12D22D11DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90559575-2D1A-4354-A346-DD12D22D11DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90559575-2D1A-4354-A346-DD12D22D11DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00CCC870-D3A1-459A-979A-3D0DDB0659A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00CCC870-D3A1-459A-979A-3D0DDB0659A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00CCC870-D3A1-459A-979A-3D0DDB0659A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00CCC870-D3A1-459A-979A-3D0DDB0659A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90559575-2D1A-4354-A346-DD12D22D11DC} = {55B2518D-C8F2-4ADE-961D-5D4D70F381E7}
+		{00CCC870-D3A1-459A-979A-3D0DDB0659A3} = {55B2518D-C8F2-4ADE-961D-5D4D70F381E7}
+	EndGlobalSection
+EndGlobal
