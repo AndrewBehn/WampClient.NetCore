@@ -1,14 +1,12 @@
 {
-  "version": "0.1.0-*",
-
+  "version": "0.1.0-dev",
   "dependencies": {
-    "Msgpack.NetCore": "0.1.0.6-prerelease",
+    "Msgpack.NetCore": "0.1.0.5-prerelease",
     "NETStandard.Library": "1.6.0",
     "Newtonsoft.Json": "9.0.1",
     "System.Net.WebSockets.Client": "4.3.0",
     "System.Reactive": "3.1.0"
   },
-
   "frameworks": {
     "netstandard1.6": {
       "imports": "dnxcore50"
